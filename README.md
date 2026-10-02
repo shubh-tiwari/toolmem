@@ -35,8 +35,6 @@ to write its arguments. Jev's picks at 0.9 confidence or higher, 58% of queries,
 
 ## Install
 
-toolmem is not published on PyPI. Install it from source:
-
 ```bash
 git clone https://github.com/shubh-tiwari/toolmem.git
 cd toolmem
