@@ -1,4 +1,4 @@
-"""LangChain adapter: registry tools as ``StructuredTool`` objects (``pip install 'toolmem[langchain]'``).
+"""LangChain adapter: registry tools as ``StructuredTool`` objects (``pip install -e ".[langchain]"``).
 
     tools = to_langchain_tools(reg, user_message, k=20)       # per-request retrieval
     model.bind_tools(tools)

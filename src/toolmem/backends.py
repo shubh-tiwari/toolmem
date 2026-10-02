@@ -55,7 +55,7 @@ class InMemoryBackend:
 
 
 def _missing(lib: str, extra: str) -> ImportError:
-    return ImportError(f"{lib} is not installed; install it with `pip install toolmem[{extra}]`")
+    return ImportError(f"{lib} is not installed; run `pip install -e '.[{extra}]'` in your toolmem checkout")
 
 
 class ChromaBackend:

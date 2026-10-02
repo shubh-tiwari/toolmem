@@ -10,7 +10,7 @@ servers do not collide. Only the stdio transport is supported.
     add_mcp_server(reg, MCPServerConfig("github", "npx", ["-y", "@modelcontextprotocol/server-github"],
                                         env={"GITHUB_PERSONAL_ACCESS_TOKEN": "..."}), call=True)
 
-Requires the ``mcp`` package (``pip install "toolmem[mcp]"``).
+Requires the ``mcp`` package (the ``mcp`` extra: ``pip install -e ".[mcp]"``).
 """
 from __future__ import annotations
 
@@ -80,7 +80,7 @@ def _mcp():
         from mcp import ClientSession, StdioServerParameters
         from mcp.client.stdio import stdio_client
     except ImportError as e:
-        raise ImportError('Loading MCP servers needs the mcp package: pip install "toolmem[mcp]"') from e
+        raise ImportError("Loading MCP servers needs the mcp package; run `pip install -e '.[mcp]'` in your toolmem checkout") from e
     return ClientSession, StdioServerParameters, stdio_client
 
 

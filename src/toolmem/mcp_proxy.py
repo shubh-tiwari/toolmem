@@ -48,7 +48,7 @@ def _mcp_server():
         from mcp.server.lowlevel import NotificationOptions, Server
         from mcp.server.stdio import stdio_server
     except ImportError as e:  # pragma: no cover - exercised only without the extra
-        raise ImportError('the MCP proxy needs the mcp package: pip install "toolmem[mcp]"') from e
+        raise ImportError("the MCP proxy needs the mcp package; run `pip install -e '.[mcp]'` in your toolmem checkout") from e
     return ClientSession, types, stdio_client, NotificationOptions, Server, stdio_server
 
 

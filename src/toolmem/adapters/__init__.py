@@ -35,7 +35,7 @@ def require(module: str, extra: str):
     try:
         return importlib.import_module(module)
     except ImportError as e:
-        raise ImportError(f"{module} is not installed; pip install 'toolmem[{extra}]'") from e
+        raise ImportError(f"{module} is not installed; run `pip install -e '.[{extra}]'` in your toolmem checkout") from e
 
 
 def retrieve(registry: "ToolRegistry", query: str, k: int = 20, **search_kw) -> list["Tool"]:

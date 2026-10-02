@@ -35,14 +35,18 @@ to write its arguments. Jev's picks at 0.9 confidence or higher, 58% of queries,
 
 ## Install
 
+toolmem is not published on PyPI. Install it from source:
+
 ```bash
-pip install toolmem              # core (numpy only)
-pip install "toolmem[local]"     # + sentence-transformers for local embeddings
-pip install "toolmem[openai]"    # + OpenAI-compatible embeddings / augmentation
-pip install "toolmem[mcp]"       # + load tools from MCP servers, and the toolmem proxy
-pip install "toolmem[chroma]"    # or [lancedb], [pgvector]: a vector store backend
-pip install "toolmem[langchain]" # or [llamaindex], [openai-agents]: framework adapters
+git clone https://github.com/shubh-tiwari/toolmem.git
+cd toolmem
+pip install -e .                 # core (numpy only)
+pip install -e ".[openai,mcp]"   # optional extras, for example OpenAI embeddings and MCP
 ```
+
+Optional extras: `local` (sentence-transformers), `openai` (OpenAI-compatible embeddings and
+augmentation), `mcp` (load tools from MCP servers, and the proxy), `chroma`, `lancedb`, `pgvector`
+(vector stores), `langchain`, `llamaindex`, `openai-agents` (framework adapters).
 
 ## Quickstart
 

@@ -116,5 +116,5 @@ def test_missing_framework_names_extra(monkeypatch):
         return real(name, *a, **k)
 
     monkeypatch.setattr(builtins, "__import__", fake)
-    with pytest.raises(ImportError, match=r"toolmem\[langchain\]"):
+    with pytest.raises(ImportError, match=r"\.\[langchain\]"):
         require("not_a_framework.tools", "langchain")

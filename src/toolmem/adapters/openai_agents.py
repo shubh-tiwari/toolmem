@@ -1,4 +1,4 @@
-"""OpenAI Agents SDK adapter: registry tools as ``FunctionTool`` objects (``pip install 'toolmem[openai-agents]'``).
+"""OpenAI Agents SDK adapter: registry tools as ``FunctionTool`` objects (``pip install -e ".[openai-agents]"``).
 
     agent = Agent(name="assistant", tools=to_openai_agents_tools(reg, user_message, k=20))
 

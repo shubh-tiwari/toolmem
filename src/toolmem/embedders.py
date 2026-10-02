@@ -53,7 +53,7 @@ class HashingEmbedder:
 
 
 class SentenceTransformerEmbedder:
-    """Local embeddings via sentence-transformers (pip install toolmem[local])."""
+    """Local embeddings via sentence-transformers (pip install -e ".[local]")."""
 
     def __init__(self, model_name: str = "all-MiniLM-L6-v2", **kwargs):
         from sentence_transformers import SentenceTransformer  # lazy import
@@ -65,7 +65,7 @@ class SentenceTransformerEmbedder:
 
 
 class OpenAIEmbedder:
-    """Any OpenAI-compatible /embeddings endpoint (pip install toolmem[openai])."""
+    """Any OpenAI-compatible /embeddings endpoint (pip install -e ".[openai]")."""
 
     def __init__(self, model: str = "text-embedding-3-small", client=None,
                  base_url: str | None = None, api_key: str | None = None, batch_size: int = 128):

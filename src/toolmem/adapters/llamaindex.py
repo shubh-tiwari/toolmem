@@ -1,4 +1,4 @@
-"""LlamaIndex adapter: registry tools as ``FunctionTool`` objects (``pip install 'toolmem[llamaindex]'``).
+"""LlamaIndex adapter: registry tools as ``FunctionTool`` objects (``pip install -e ".[llamaindex]"``).
 
     tools = to_llamaindex_tools(reg, user_message, k=20)
     agent = FunctionAgent(tools=tools, llm=...)
