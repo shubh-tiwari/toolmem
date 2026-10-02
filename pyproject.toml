@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling>=1.21"]
+build-backend = "hatchling.build"
+
+[project]
+name = "toolmem"
+version = "0.1.0"
+description = "Semantic tool memory for LLM agents: retrieve only the tools a query needs, and measure how well it works."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+keywords = ["llm", "agents", "tool-calling", "retrieval", "embeddings", "mcp", "evals"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+toolmem = "toolmem.cli:main"
+
+[project.optional-dependencies]
+openai = ["openai>=1.30"]
+local = ["sentence-transformers>=2.7"]
+chroma = ["chromadb>=0.5"]
+lancedb = ["lancedb>=0.10"]
+pgvector = ["psycopg[binary]>=3.1"]
+mcp = ["mcp>=2.0"]
+langchain = ["langchain-core>=0.3"]
+llamaindex = ["llama-index-core>=0.12"]
+openai-agents = ["openai-agents>=0.2"]
+all = ["openai>=1.30", "sentence-transformers>=2.7"]
+bench = ["mcp>=2.0", "anthropic>=1.0", "openai>=1.30", "matplotlib>=3.8"]
+dev = ["pytest>=8"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/toolmem"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

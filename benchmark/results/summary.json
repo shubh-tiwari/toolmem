@@ -1,0 +1,1738 @@
+{
+  "models": {
+    "deepseek/deepseek-v4-flash": {
+      "provider": "openrouter",
+      "effort": null,
+      "run_at": "2026-10-01 00:02",
+      "conditions": {
+        "all@10": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9897,
+          "target_accuracy": 0.9794,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 10,
+          "mean_input_tokens": 3461,
+          "mean_output_tokens": 161,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 335743,
+          "cost_list_usd": 0.0288,
+          "cost_effective_usd": 0.0288,
+          "cost_per_1k_requests_usd": 0.3,
+          "billed_cost_usd": 0.0287,
+          "billed_per_1k_requests_usd": 0.3,
+          "reported_cost_usd": 0.0287,
+          "latency_p50_s": 3.86,
+          "latency_p95_s": 8.28,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 29,
+              "accuracy": 1.0
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "all@25": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9588,
+          "target_accuracy": 0.9485,
+          "no_tool_rate": 0.0206,
+          "cut_off_rate": 0.0206,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 25,
+          "mean_input_tokens": 8307,
+          "mean_output_tokens": 179,
+          "mean_cache_read_tokens": 8,
+          "total_input_tokens": 805749,
+          "cost_list_usd": 0.066,
+          "cost_effective_usd": 0.066,
+          "cost_per_1k_requests_usd": 0.68,
+          "billed_cost_usd": 0.065,
+          "billed_per_1k_requests_usd": 0.67,
+          "reported_cost_usd": 0.065,
+          "latency_p50_s": 3.7,
+          "latency_p95_s": 14.7,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 41,
+              "accuracy": 0.9535
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 28,
+              "accuracy": 0.9655
+            },
+            "multi": {
+              "n": 25,
+              "correct": 24,
+              "accuracy": 0.96
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "all@50": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9794,
+          "target_accuracy": 0.9691,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0103,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 50,
+          "mean_input_tokens": 16219,
+          "mean_output_tokens": 172,
+          "mean_cache_read_tokens": 143,
+          "total_input_tokens": 1573248,
+          "cost_list_usd": 0.1262,
+          "cost_effective_usd": 0.1253,
+          "cost_per_1k_requests_usd": 1.3,
+          "billed_cost_usd": 0.1237,
+          "billed_per_1k_requests_usd": 1.28,
+          "reported_cost_usd": 0.1237,
+          "latency_p50_s": 3.88,
+          "latency_p95_s": 13.63,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 29,
+              "accuracy": 1.0
+            },
+            "multi": {
+              "n": 25,
+              "correct": 24,
+              "accuracy": 0.96
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "all@100": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9381,
+          "target_accuracy": 0.9278,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 100,
+          "mean_input_tokens": 31436,
+          "mean_output_tokens": 166,
+          "mean_cache_read_tokens": 21,
+          "total_input_tokens": 3049303,
+          "cost_list_usd": 0.242,
+          "cost_effective_usd": 0.2419,
+          "cost_per_1k_requests_usd": 2.5,
+          "billed_cost_usd": 0.238,
+          "billed_per_1k_requests_usd": 2.45,
+          "reported_cost_usd": 0.238,
+          "latency_p50_s": 5.32,
+          "latency_p95_s": 12.87,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 40,
+              "accuracy": 0.9302
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 29,
+              "accuracy": 1.0
+            },
+            "multi": {
+              "n": 25,
+              "correct": 22,
+              "accuracy": 0.88
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "all@200": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9175,
+          "target_accuracy": 0.9072,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 200,
+          "mean_input_tokens": 62793,
+          "mean_output_tokens": 160,
+          "mean_cache_read_tokens": 5,
+          "total_input_tokens": 6090902,
+          "cost_list_usd": 0.4808,
+          "cost_effective_usd": 0.4808,
+          "cost_per_1k_requests_usd": 4.96,
+          "billed_cost_usd": 0.4726,
+          "billed_per_1k_requests_usd": 4.87,
+          "reported_cost_usd": 0.4726,
+          "latency_p50_s": 6.29,
+          "latency_p95_s": 16.64,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 39,
+              "accuracy": 0.907
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 26,
+              "accuracy": 0.8966
+            },
+            "multi": {
+              "n": 25,
+              "correct": 24,
+              "accuracy": 0.96
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "all@all": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.8763,
+          "target_accuracy": 0.866,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 454,
+          "mean_input_tokens": 143685,
+          "mean_output_tokens": 168,
+          "mean_cache_read_tokens": 139085,
+          "total_input_tokens": 13937427,
+          "cost_list_usd": 1.0972,
+          "cost_effective_usd": 0.2495,
+          "cost_per_1k_requests_usd": 11.31,
+          "billed_cost_usd": 0.2387,
+          "billed_per_1k_requests_usd": 2.46,
+          "reported_cost_usd": 0.2387,
+          "latency_p50_s": 8.59,
+          "latency_p95_s": 17.66,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 38,
+              "accuracy": 0.8837
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 26,
+              "accuracy": 0.8966
+            },
+            "multi": {
+              "n": 25,
+              "correct": 21,
+              "accuracy": 0.84
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "toolmem@5": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.6598,
+          "target_accuracy": 0.6289,
+          "no_tool_rate": 0.1649,
+          "cut_off_rate": 0.0206,
+          "retrieval_recall": 0.7216,
+          "tools_per_request": 5,
+          "mean_input_tokens": 2279,
+          "mean_output_tokens": 226,
+          "mean_cache_read_tokens": 58,
+          "total_input_tokens": 221069,
+          "cost_list_usd": 0.0208,
+          "cost_effective_usd": 0.0205,
+          "cost_per_1k_requests_usd": 0.21,
+          "billed_cost_usd": 0.0205,
+          "billed_per_1k_requests_usd": 0.21,
+          "reported_cost_usd": 0.0205,
+          "latency_p50_s": 4.32,
+          "latency_p95_s": 12.98,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 30,
+              "accuracy": 0.6977
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 17,
+              "accuracy": 0.5862
+            },
+            "multi": {
+              "n": 25,
+              "correct": 17,
+              "accuracy": 0.68
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "toolmem_aug@5": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.8144,
+          "target_accuracy": 0.7835,
+          "no_tool_rate": 0.1134,
+          "cut_off_rate": 0.0103,
+          "retrieval_recall": 0.8454,
+          "tools_per_request": 5,
+          "mean_input_tokens": 2049,
+          "mean_output_tokens": 208,
+          "mean_cache_read_tokens": 82,
+          "total_input_tokens": 198800,
+          "cost_list_usd": 0.0188,
+          "cost_effective_usd": 0.0183,
+          "cost_per_1k_requests_usd": 0.19,
+          "billed_cost_usd": 0.0184,
+          "billed_per_1k_requests_usd": 0.19,
+          "reported_cost_usd": 0.0184,
+          "latency_p50_s": 4.12,
+          "latency_p95_s": 12.79,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 34,
+              "accuracy": 0.7907
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 22,
+              "accuracy": 0.7586
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "toolmem_aug@10": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.866,
+          "target_accuracy": 0.8454,
+          "no_tool_rate": 0.0412,
+          "cut_off_rate": 0.0206,
+          "retrieval_recall": 0.9175,
+          "tools_per_request": 10,
+          "mean_input_tokens": 3989,
+          "mean_output_tokens": 210,
+          "mean_cache_read_tokens": 26,
+          "total_input_tokens": 386898,
+          "cost_list_usd": 0.0336,
+          "cost_effective_usd": 0.0334,
+          "cost_per_1k_requests_usd": 0.35,
+          "billed_cost_usd": 0.0328,
+          "billed_per_1k_requests_usd": 0.34,
+          "reported_cost_usd": 0.0328,
+          "latency_p50_s": 2.41,
+          "latency_p95_s": 9.94,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 37,
+              "accuracy": 0.8605
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 24,
+              "accuracy": 0.8276
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "toolmem_aug@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9278,
+          "target_accuracy": 0.9072,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0103,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 7955,
+          "mean_output_tokens": 209,
+          "mean_cache_read_tokens": 1792,
+          "total_input_tokens": 771680,
+          "cost_list_usd": 0.0638,
+          "cost_effective_usd": 0.0529,
+          "cost_per_1k_requests_usd": 0.66,
+          "billed_cost_usd": 0.041,
+          "billed_per_1k_requests_usd": 0.42,
+          "reported_cost_usd": 0.041,
+          "latency_p50_s": 2.47,
+          "latency_p95_s": 9.4,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 40,
+              "accuracy": 0.9302
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 27,
+              "accuracy": 0.931
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "toolmem_aug@50": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.866,
+          "target_accuracy": 0.8557,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0103,
+          "retrieval_recall": 0.9897,
+          "tools_per_request": 50,
+          "mean_input_tokens": 19139,
+          "mean_output_tokens": 202,
+          "mean_cache_read_tokens": 3791,
+          "total_input_tokens": 1856513,
+          "cost_list_usd": 0.1489,
+          "cost_effective_usd": 0.1258,
+          "cost_per_1k_requests_usd": 1.53,
+          "billed_cost_usd": 0.056,
+          "billed_per_1k_requests_usd": 0.58,
+          "reported_cost_usd": 0.056,
+          "latency_p50_s": 4.5,
+          "latency_p95_s": 14.47,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 37,
+              "accuracy": 0.8605
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 26,
+              "accuracy": 0.8966
+            },
+            "multi": {
+              "n": 25,
+              "correct": 21,
+              "accuracy": 0.84
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        },
+        "toolmem_aug_shuffled@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.8454,
+          "target_accuracy": 0.8351,
+          "no_tool_rate": 0.0515,
+          "cut_off_rate": 0.0515,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 7843,
+          "mean_output_tokens": 272,
+          "mean_cache_read_tokens": 5134,
+          "total_input_tokens": 760738,
+          "cost_list_usd": 0.0639,
+          "cost_effective_usd": 0.0326,
+          "cost_per_1k_requests_usd": 0.66,
+          "billed_cost_usd": 0.0096,
+          "billed_per_1k_requests_usd": 0.1,
+          "reported_cost_usd": 0.0096,
+          "latency_p50_s": 10.31,
+          "latency_p95_s": 46.31,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 37,
+              "accuracy": 0.8605
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 25,
+              "accuracy": 0.8621
+            },
+            "multi": {
+              "n": 25,
+              "correct": 20,
+              "accuracy": 0.8
+            }
+          },
+          "prices_per_mtok": [
+            0.07854,
+            0.15708,
+            0.015708,
+            0.07854
+          ]
+        }
+      },
+      "n_queries": 97
+    },
+    "qwen/qwen3.7-flash": {
+      "provider": "openrouter",
+      "effort": null,
+      "run_at": "2026-10-01 00:06",
+      "conditions": {
+        "all@10": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9897,
+          "target_accuracy": 0.9794,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 10,
+          "mean_input_tokens": 3465,
+          "mean_output_tokens": 237,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 336087,
+          "cost_list_usd": 0.0131,
+          "cost_effective_usd": 0.0131,
+          "cost_per_1k_requests_usd": 0.13,
+          "billed_cost_usd": 0.0131,
+          "billed_per_1k_requests_usd": 0.13,
+          "reported_cost_usd": 0.0131,
+          "latency_p50_s": 2.77,
+          "latency_p95_s": 6.14,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 43,
+              "accuracy": 1.0
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 28,
+              "accuracy": 0.9655
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "all@25": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9897,
+          "target_accuracy": 0.9794,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 25,
+          "mean_input_tokens": 8318,
+          "mean_output_tokens": 239,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 806837,
+          "cost_list_usd": 0.0272,
+          "cost_effective_usd": 0.0272,
+          "cost_per_1k_requests_usd": 0.28,
+          "billed_cost_usd": 0.0272,
+          "billed_per_1k_requests_usd": 0.28,
+          "reported_cost_usd": 0.0272,
+          "latency_p50_s": 2.75,
+          "latency_p95_s": 6.45,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 29,
+              "accuracy": 1.0
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "all@50": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9794,
+          "target_accuracy": 0.9691,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 50,
+          "mean_input_tokens": 16269,
+          "mean_output_tokens": 219,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 1578068,
+          "cost_list_usd": 0.0501,
+          "cost_effective_usd": 0.0501,
+          "cost_per_1k_requests_usd": 0.52,
+          "billed_cost_usd": 0.0501,
+          "billed_per_1k_requests_usd": 0.52,
+          "reported_cost_usd": 0.0501,
+          "latency_p50_s": 3.04,
+          "latency_p95_s": 7.25,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 28,
+              "accuracy": 0.9655
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "all@100": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9485,
+          "target_accuracy": 0.9381,
+          "no_tool_rate": 0.0206,
+          "cut_off_rate": 0.0103,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 100,
+          "mean_input_tokens": 31552,
+          "mean_output_tokens": 234,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 3060561,
+          "cost_list_usd": 0.0948,
+          "cost_effective_usd": 0.0948,
+          "cost_per_1k_requests_usd": 0.98,
+          "billed_cost_usd": 0.1827,
+          "billed_per_1k_requests_usd": 1.88,
+          "reported_cost_usd": 0.1827,
+          "latency_p50_s": 3.88,
+          "latency_p95_s": 7.52,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 27,
+              "accuracy": 0.931
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "all@200": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.866,
+          "target_accuracy": 0.8557,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 200,
+          "mean_input_tokens": 63028,
+          "mean_output_tokens": 219,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 6113718,
+          "cost_list_usd": 0.1862,
+          "cost_effective_usd": 0.1862,
+          "cost_per_1k_requests_usd": 1.92,
+          "billed_cost_usd": 0.6199,
+          "billed_per_1k_requests_usd": 6.39,
+          "reported_cost_usd": 0.6199,
+          "latency_p50_s": 6.5,
+          "latency_p95_s": 8.96,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 38,
+              "accuracy": 0.8837
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 24,
+              "accuracy": 0.8276
+            },
+            "multi": {
+              "n": 25,
+              "correct": 22,
+              "accuracy": 0.88
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "all@all": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.866,
+          "target_accuracy": 0.8557,
+          "no_tool_rate": 0.0206,
+          "cut_off_rate": 0.0103,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 454,
+          "mean_input_tokens": 144231,
+          "mean_output_tokens": 203,
+          "mean_cache_read_tokens": 123149,
+          "total_input_tokens": 13990376,
+          "cost_list_usd": 0.4223,
+          "cost_effective_usd": 0.1356,
+          "cost_per_1k_requests_usd": 4.35,
+          "billed_cost_usd": 0.4513,
+          "billed_per_1k_requests_usd": 4.65,
+          "reported_cost_usd": 0.4513,
+          "latency_p50_s": 2.54,
+          "latency_p95_s": 12.02,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 37,
+              "accuracy": 0.8605
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 26,
+              "accuracy": 0.8966
+            },
+            "multi": {
+              "n": 25,
+              "correct": 21,
+              "accuracy": 0.84
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "toolmem@5": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.6701,
+          "target_accuracy": 0.6392,
+          "no_tool_rate": 0.1753,
+          "cut_off_rate": 0.0206,
+          "retrieval_recall": 0.7216,
+          "tools_per_request": 5,
+          "mean_input_tokens": 2265,
+          "mean_output_tokens": 297,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 219693,
+          "cost_list_usd": 0.0103,
+          "cost_effective_usd": 0.0103,
+          "cost_per_1k_requests_usd": 0.11,
+          "billed_cost_usd": 0.0103,
+          "billed_per_1k_requests_usd": 0.11,
+          "reported_cost_usd": 0.0103,
+          "latency_p50_s": 2.75,
+          "latency_p95_s": 7.99,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 31,
+              "accuracy": 0.7209
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 17,
+              "accuracy": 0.5862
+            },
+            "multi": {
+              "n": 25,
+              "correct": 17,
+              "accuracy": 0.68
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "toolmem_aug@5": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.8247,
+          "target_accuracy": 0.7938,
+          "no_tool_rate": 0.1031,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.8454,
+          "tools_per_request": 5,
+          "mean_input_tokens": 2038,
+          "mean_output_tokens": 291,
+          "mean_cache_read_tokens": 40,
+          "total_input_tokens": 197658,
+          "cost_list_usd": 0.0096,
+          "cost_effective_usd": 0.0095,
+          "cost_per_1k_requests_usd": 0.1,
+          "billed_cost_usd": 0.0095,
+          "billed_per_1k_requests_usd": 0.1,
+          "reported_cost_usd": 0.0095,
+          "latency_p50_s": 2.84,
+          "latency_p95_s": 8.21,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 35,
+              "accuracy": 0.814
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 22,
+              "accuracy": 0.7586
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "toolmem_aug@10": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.866,
+          "target_accuracy": 0.8454,
+          "no_tool_rate": 0.0412,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9175,
+          "tools_per_request": 10,
+          "mean_input_tokens": 3918,
+          "mean_output_tokens": 246,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 380077,
+          "cost_list_usd": 0.0145,
+          "cost_effective_usd": 0.0145,
+          "cost_per_1k_requests_usd": 0.15,
+          "billed_cost_usd": 0.0145,
+          "billed_per_1k_requests_usd": 0.15,
+          "reported_cost_usd": 0.0145,
+          "latency_p50_s": 2.43,
+          "latency_p95_s": 6.39,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 37,
+              "accuracy": 0.8605
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 24,
+              "accuracy": 0.8276
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "toolmem_aug@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.8969,
+          "target_accuracy": 0.8866,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 7878,
+          "mean_output_tokens": 232,
+          "mean_cache_read_tokens": 330,
+          "total_input_tokens": 764177,
+          "cost_list_usd": 0.0258,
+          "cost_effective_usd": 0.0251,
+          "cost_per_1k_requests_usd": 0.27,
+          "billed_cost_usd": 0.0251,
+          "billed_per_1k_requests_usd": 0.26,
+          "reported_cost_usd": 0.0251,
+          "latency_p50_s": 2.61,
+          "latency_p95_s": 5.38,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 39,
+              "accuracy": 0.907
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 25,
+              "accuracy": 0.8621
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "toolmem_aug@50": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.8969,
+          "target_accuracy": 0.8866,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9897,
+          "tools_per_request": 50,
+          "mean_input_tokens": 19045,
+          "mean_output_tokens": 209,
+          "mean_cache_read_tokens": 759,
+          "total_input_tokens": 1847351,
+          "cost_list_usd": 0.0581,
+          "cost_effective_usd": 0.0563,
+          "cost_per_1k_requests_usd": 0.6,
+          "billed_cost_usd": 0.0635,
+          "billed_per_1k_requests_usd": 0.65,
+          "reported_cost_usd": 0.0635,
+          "latency_p50_s": 3.06,
+          "latency_p95_s": 5.75,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 38,
+              "accuracy": 0.8837
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 26,
+              "accuracy": 0.8966
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        },
+        "toolmem_aug_shuffled@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9072,
+          "target_accuracy": 0.8969,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 7878,
+          "mean_output_tokens": 224,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 764177,
+          "cost_list_usd": 0.0258,
+          "cost_effective_usd": 0.0258,
+          "cost_per_1k_requests_usd": 0.27,
+          "billed_cost_usd": 0.0258,
+          "billed_per_1k_requests_usd": 0.27,
+          "reported_cost_usd": 0.0258,
+          "latency_p50_s": 2.8,
+          "latency_p95_s": 6.35,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 39,
+              "accuracy": 0.907
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 27,
+              "accuracy": 0.931
+            },
+            "multi": {
+              "n": 25,
+              "correct": 22,
+              "accuracy": 0.88
+            }
+          },
+          "prices_per_mtok": [
+            0.03,
+            0.13,
+            0.006,
+            0.038000000000000006
+          ]
+        }
+      },
+      "n_queries": 97
+    },
+    "jev-latest": {
+      "provider": "jev",
+      "effort": null,
+      "run_at": "2026-09-30 23:58",
+      "conditions": {
+        "all@10": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 1.0,
+          "target_accuracy": 0.9794,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 10,
+          "mean_input_tokens": 987,
+          "mean_output_tokens": 164,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 95784,
+          "cost_list_usd": 0.004,
+          "cost_effective_usd": 0.004,
+          "cost_per_1k_requests_usd": 0.04,
+          "billed_cost_usd": 0.004,
+          "billed_per_1k_requests_usd": 0.04,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.51,
+          "latency_p95_s": 0.63,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 43,
+              "accuracy": 1.0
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 29,
+              "accuracy": 1.0
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "all@25": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9897,
+          "target_accuracy": 0.9691,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 25,
+          "mean_input_tokens": 1924,
+          "mean_output_tokens": 364,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 186634,
+          "cost_list_usd": 0.0078,
+          "cost_effective_usd": 0.0078,
+          "cost_per_1k_requests_usd": 0.08,
+          "billed_cost_usd": 0.0078,
+          "billed_per_1k_requests_usd": 0.08,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.51,
+          "latency_p95_s": 0.61,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 43,
+              "accuracy": 1.0
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 29,
+              "accuracy": 1.0
+            },
+            "multi": {
+              "n": 25,
+              "correct": 24,
+              "accuracy": 0.96
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "all@50": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9897,
+          "target_accuracy": 0.9485,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 50,
+          "mean_input_tokens": 3496,
+          "mean_output_tokens": 702,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 339083,
+          "cost_list_usd": 0.0142,
+          "cost_effective_usd": 0.0142,
+          "cost_per_1k_requests_usd": 0.15,
+          "billed_cost_usd": 0.0142,
+          "billed_per_1k_requests_usd": 0.15,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.5,
+          "latency_p95_s": 0.52,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 43,
+              "accuracy": 1.0
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 28,
+              "accuracy": 0.9655
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "all@100": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9897,
+          "target_accuracy": 0.9485,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 100,
+          "mean_input_tokens": 6631,
+          "mean_output_tokens": 1376,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 643225,
+          "cost_list_usd": 0.027,
+          "cost_effective_usd": 0.027,
+          "cost_per_1k_requests_usd": 0.28,
+          "billed_cost_usd": 0.027,
+          "billed_per_1k_requests_usd": 0.28,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.52,
+          "latency_p95_s": 0.67,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 43,
+              "accuracy": 1.0
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 28,
+              "accuracy": 0.9655
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "all@200": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9794,
+          "target_accuracy": 0.9278,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 200,
+          "mean_input_tokens": 12875,
+          "mean_output_tokens": 2723,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 1248852,
+          "cost_list_usd": 0.0525,
+          "cost_effective_usd": 0.0525,
+          "cost_per_1k_requests_usd": 0.54,
+          "billed_cost_usd": 0.0525,
+          "billed_per_1k_requests_usd": 0.54,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.61,
+          "latency_p95_s": 0.78,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 28,
+              "accuracy": 0.9655
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "toolmem_aug@10": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.8866,
+          "target_accuracy": 0.866,
+          "no_tool_rate": 0.0515,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9175,
+          "tools_per_request": 10,
+          "mean_input_tokens": 1027,
+          "mean_output_tokens": 161,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 99608,
+          "cost_list_usd": 0.0042,
+          "cost_effective_usd": 0.0042,
+          "cost_per_1k_requests_usd": 0.04,
+          "billed_cost_usd": 0.0042,
+          "billed_per_1k_requests_usd": 0.04,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.49,
+          "latency_p95_s": 0.63,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 39,
+              "accuracy": 0.907
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 25,
+              "accuracy": 0.8621
+            },
+            "multi": {
+              "n": 25,
+              "correct": 22,
+              "accuracy": 0.88
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "toolmem_aug@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9381,
+          "target_accuracy": 0.9278,
+          "no_tool_rate": 0.0206,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 1713,
+          "mean_output_tokens": 295,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 166166,
+          "cost_list_usd": 0.007,
+          "cost_effective_usd": 0.007,
+          "cost_per_1k_requests_usd": 0.07,
+          "billed_cost_usd": 0.007,
+          "billed_per_1k_requests_usd": 0.07,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.5,
+          "latency_p95_s": 0.62,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 27,
+              "accuracy": 0.931
+            },
+            "multi": {
+              "n": 25,
+              "correct": 22,
+              "accuracy": 0.88
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "toolmem_aug@50": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9588,
+          "target_accuracy": 0.9381,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9897,
+          "tools_per_request": 50,
+          "mean_input_tokens": 3749,
+          "mean_output_tokens": 700,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 363633,
+          "cost_list_usd": 0.0153,
+          "cost_effective_usd": 0.0153,
+          "cost_per_1k_requests_usd": 0.16,
+          "billed_cost_usd": 0.0153,
+          "billed_per_1k_requests_usd": 0.16,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.5,
+          "latency_p95_s": 0.69,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 27,
+              "accuracy": 0.931
+            },
+            "multi": {
+              "n": 25,
+              "correct": 24,
+              "accuracy": 0.96
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        },
+        "toolmem_aug_shuffled@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9588,
+          "target_accuracy": 0.9278,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 1713,
+          "mean_output_tokens": 295,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 166166,
+          "cost_list_usd": 0.007,
+          "cost_effective_usd": 0.007,
+          "cost_per_1k_requests_usd": 0.07,
+          "billed_cost_usd": 0.007,
+          "billed_per_1k_requests_usd": 0.07,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.5,
+          "latency_p95_s": 0.94,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 28,
+              "accuracy": 0.9655
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        }
+      },
+      "n_queries": 97
+    },
+    "jev-latest-route": {
+      "provider": "jevroute",
+      "effort": null,
+      "run_at": "2026-09-30 23:37",
+      "conditions": {
+        "all@all": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9278,
+          "target_accuracy": 0.8969,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 1.0,
+          "tools_per_request": 454,
+          "mean_input_tokens": 4667,
+          "mean_output_tokens": 0,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 452728,
+          "cost_list_usd": 0.019,
+          "cost_effective_usd": 0.019,
+          "cost_per_1k_requests_usd": 0.2,
+          "billed_cost_usd": 0.019,
+          "billed_per_1k_requests_usd": 0.2,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.81,
+          "latency_p95_s": 0.98,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 40,
+              "accuracy": 0.9302
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 25,
+              "accuracy": 0.8621
+            },
+            "multi": {
+              "n": 25,
+              "correct": 25,
+              "accuracy": 1.0
+            }
+          },
+          "prices_per_mtok": [
+            0.042,
+            0.0,
+            0.042,
+            0.042
+          ]
+        }
+      },
+      "n_queries": 97
+    },
+    "cascade-jev-deepseek-v4-flash": {
+      "provider": "cascade",
+      "effort": null,
+      "run_at": "2026-09-30 23:37",
+      "conditions": {
+        "toolmem_aug@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9381,
+          "target_accuracy": 0.9278,
+          "no_tool_rate": 0.0,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 2514,
+          "mean_output_tokens": 101,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 243829,
+          "cost_list_usd": 0.015,
+          "cost_effective_usd": 0.015,
+          "cost_per_1k_requests_usd": 0.16,
+          "billed_cost_usd": 0.015,
+          "billed_per_1k_requests_usd": 0.16,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.52,
+          "latency_p95_s": 22.83,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 41,
+              "accuracy": 0.9535
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 27,
+              "accuracy": 0.931
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "n_queries": 97
+    },
+    "cascade-jev-qwen3.7-flash": {
+      "provider": "cascade",
+      "effort": null,
+      "run_at": "2026-09-30 23:37",
+      "conditions": {
+        "toolmem_aug@20": {
+          "n": 97,
+          "errors": 0,
+          "accuracy": 0.9381,
+          "target_accuracy": 0.9278,
+          "no_tool_rate": 0.0103,
+          "cut_off_rate": 0.0,
+          "retrieval_recall": 0.9794,
+          "tools_per_request": 20,
+          "mean_input_tokens": 2454,
+          "mean_output_tokens": 111,
+          "mean_cache_read_tokens": 0,
+          "total_input_tokens": 238038,
+          "cost_list_usd": 0.0105,
+          "cost_effective_usd": 0.0105,
+          "cost_per_1k_requests_usd": 0.11,
+          "billed_cost_usd": 0.0105,
+          "billed_per_1k_requests_usd": 0.11,
+          "reported_cost_usd": null,
+          "latency_p50_s": 0.65,
+          "latency_p95_s": 5.94,
+          "by_kind": {
+            "direct": {
+              "n": 43,
+              "correct": 42,
+              "accuracy": 0.9767
+            },
+            "confusable": {
+              "n": 29,
+              "correct": 26,
+              "accuracy": 0.8966
+            },
+            "multi": {
+              "n": 25,
+              "correct": 23,
+              "accuracy": 0.92
+            }
+          },
+          "prices_per_mtok": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "n_queries": 97
+    }
+  },
+  "retrieval": {
+    "openai:text-embedding-3-small": {
+      "keyword": {
+        "label": "keyword",
+        "n": 97,
+        "mrr": 0.4262,
+        "hit@1": 0.299,
+        "hit@3": 0.5155,
+        "hit@5": 0.5979,
+        "hit@10": 0.6804,
+        "recall@1": 0.2221,
+        "recall@3": 0.4317,
+        "recall@5": 0.5296,
+        "recall@10": 0.5893
+      },
+      "semantic": {
+        "label": "semantic",
+        "n": 97,
+        "mrr": 0.4978,
+        "hit@1": 0.3608,
+        "hit@3": 0.5773,
+        "hit@5": 0.6495,
+        "hit@10": 0.8247,
+        "recall@1": 0.2994,
+        "recall@3": 0.4996,
+        "recall@5": 0.5692,
+        "recall@10": 0.7496
+      },
+      "hybrid": {
+        "label": "hybrid",
+        "n": 97,
+        "mrr": 0.4927,
+        "hit@1": 0.3299,
+        "hit@3": 0.6392,
+        "hit@5": 0.701,
+        "hit@10": 0.7629,
+        "recall@1": 0.262,
+        "recall@3": 0.561,
+        "recall@5": 0.6155,
+        "recall@10": 0.6946
+      },
+      "hybrid+aug": {
+        "label": "hybrid",
+        "n": 97,
+        "mrr": 0.7062,
+        "hit@1": 0.5773,
+        "hit@3": 0.8144,
+        "hit@5": 0.866,
+        "hit@10": 0.9175,
+        "recall@1": 0.4656,
+        "recall@3": 0.7083,
+        "recall@5": 0.7869,
+        "recall@10": 0.8733
+      }
+    }
+  },
+  "meta": {
+    "n_tools": 454,
+    "n_queries": 97,
+    "embedder": "openai:text-embedding-3-small",
+    "aug_model": "deepseek/deepseek-v4.1-flash",
+    "seed": 7,
+    "system_prompt_sha": "f90aac06310e",
+    "tools_file": "tools.json",
+    "queries_file": "queries.jsonl"
+  }
+}
