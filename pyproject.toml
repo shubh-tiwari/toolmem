@@ -8,6 +8,7 @@ version = "0.1.0"
 description = "Semantic tool memory for LLM agents: retrieve only the tools a query needs, and measure how well it works."
 readme = "README.md"
 license = { text = "MIT" }
+authors = [{ name = "Shubham Tiwari", email = "shubhamtiwari19934@gmail.com" }]
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24"]
 keywords = ["llm", "agents", "tool-calling", "retrieval", "embeddings", "mcp", "evals"]
@@ -17,6 +18,12 @@ classifiers = [
   "Intended Audience :: Developers",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
+
+[project.urls]
+Homepage = "https://github.com/shubh-tiwari/toolmem"
+Repository = "https://github.com/shubh-tiwari/toolmem"
+Issues = "https://github.com/shubh-tiwari/toolmem/issues"
+Benchmark = "https://github.com/shubh-tiwari/toolmem/blob/main/benchmark/README.md"
 
 [project.scripts]
 toolmem = "toolmem.cli:main"
@@ -31,7 +38,7 @@ mcp = ["mcp>=2.0"]
 langchain = ["langchain-core>=0.3"]
 llamaindex = ["llama-index-core>=0.12"]
 openai-agents = ["openai-agents>=0.2"]
-all = ["openai>=1.30", "sentence-transformers>=2.7"]
+all = ["openai>=1.30", "sentence-transformers>=2.7", "mcp>=2.0"]
 bench = ["mcp>=2.0", "anthropic>=1.0", "openai>=1.30", "matplotlib>=3.8"]
 dev = ["pytest>=8"]
 

@@ -12,12 +12,12 @@ of the time. A toolmem shortlist of 20 gets the same accuracy (90 to 93%, within
 everything) on about 1/18 of the tokens. DeepSeek leans on toolmem listing the best match first
 (84% when the shortlist is shuffled); Qwen and Jev do not. Tested on 97 queries.
 
-![Accuracy vs. tools shown](benchmark/results/accuracy_vs_tools.png)
+![Accuracy vs. tools shown](https://raw.githubusercontent.com/shubh-tiwari/toolmem/main/benchmark/results/accuracy_vs_tools.png)
 
 Picking from the shortlist with TypeSafe's Jev instead of an LLM scores 94% in 0.5 seconds on about
 1,700 tokens, at $0.07 per thousand requests, against 8.6 seconds and $2.46 billed ($11.31 at list
 price) for DeepSeek V4 Flash with every tool in the prompt. Jev chooses the tool; an LLM still has
-to write its arguments. Jev's picks at 0.9 confidence or higher, 58% of queries, were all correct. Method, full results, caveats and how to re-run: [benchmark/](benchmark/README.md).
+to write its arguments. Jev's picks at 0.9 confidence or higher, 58% of queries, were all correct. Method, full results, caveats and how to re-run: [benchmark/](https://github.com/shubh-tiwari/toolmem/blob/main/benchmark/README.md).
 
 ## Features
 

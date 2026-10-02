@@ -308,7 +308,7 @@ def main(argv: list[str] | None = None) -> int:
     except CLIError as e:
         print(f"error: {e}", file=sys.stderr)
         return 1
-    except ImportError as e:
+    except (ImportError, OSError) as e:  # missing extra, or a config/tools file that cannot be read
         print(f"error: {e}", file=sys.stderr)
         return 1
 
